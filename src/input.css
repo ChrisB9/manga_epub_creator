@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+body {
+    font-family: 'Mochiy Pop One', serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.bg-manga-paper {
+    background-color: #ffffff;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAIAAAB7GkOtAAA850lEQVR4nO3dV0MTTxcH4FEUUBEQUEBQbIBYQVC//yUdQu8toQZI6AnF9yK+Mf+UzezuzJwpv+dKYzJ7bGcy7cy9P3/+MHBSPB5vamqijoLL/Pz8x48fsz+NxWJtbW2+Wri+vn748KHouCDf4uJiV1cXdRRSRKPR9vZ2nneen58/efKk8PV0Ol1ZWSk6rlDuoQMAkMqgjhZccz/wJ6empgTGoUwikaAOAYTZ29ujDqE8p7L/7u4udQhKzc7OFr6YTqfVRxJM8A7g69evhS/e3d3l/vTw8DBw+5LU19cLaSeZTAppRz2b/os2NzeXfY9uf1Pz8/NiGzw5ORHbYBgtLS3UISj16dOnwhflzfNsbGwE/uzKykrhi8E7gKLu3/9Pg42NjWLbJ1H0a2ZdXZ36SHItLy8H+6Br/0X5/6bUZNLcxQwhamtrxTbI7+bmRmBr09PTIVtYXV3N/GBzczN0ODrq6Ojw+5Hsv+r3798X/qrvNYDx8fG+vj6/QYDjDg4Onj9/Th2Fi+bm5np6eqijCOXPnz/37t3z9ZHb29uKigrv92xsbOTl05ubmwcPHviOz2TqFoFt3R6wt7fHMxFRVoCdLQAAYWAXEEAZOmzjSSQSopavNBGJRL59+0YdhesErwHkcqdr2dnZoQ7BJJFIhDoEf8izPyvYvLC/v08UiDCGZv+FhQXqEETCCADAIVNTU0X37wVGe7jp6OiooaEhZCMTExO9vb0iwjEPOgBiMob2Ozs7ra2tYtsMgP/kJIBNSp0E1hA6gPIODw/t2M8KAhXuIckVYONKGFdXV9XV1YWvX15ePnr0SFkYQpT6vYAMEtcAChXdun59fa0yhgCkZn/9f/tQlPeObJXZnzFWKmMal/1Z6d+LBUZHR6lDyKe0A/jw4UPhi0JKdK2vr4dvhIQpFcpUnqyZnJxU9qw8WM9XLHt0ywX9/f3UIeTDFBCAi4pOUhl9EkrIgnBRmiyqyaB0BCAE4ddDK5m7rU1ZDRzdqgkJUXSSytzszxjLZP94PC68ZVuzP8MIwGIWf20BPSk+7S/vK787zBsBuOn8/NzvR5D9QbahoaHcnyqu9SIv+19dXRV93ZTpB/410X8dwODgoJRYQARTthWbKxaLCWnHlBwhxK9fv6S2T3V7R95OpGwF9e/fvyuLIa+0vi9v3rzJ/WnRSwsyfE8BEU4srK+v5/3GNCS2ptvx8fGzZ89EtQYZg4ODv3//po6CHnbcg21rAEtLS52dndRRlMd/UGh2drbopRPkMjUAdCiUBiCDCzXMbesAAKS6uLh4/PgxyaNRWiPr7u4u7+4pCAZ/iKACzwz75eVlsMaL3nUnCVX2Z4zpn/2V/UUg+4uCEQAYZnd317VbLbVydnZWU1NDHQWIoVdHmkqlAn92bm5OYCSgrWDZ38rDXCSQ/W2iVwdQVVUV+LOmX3yaK8Cuf/DGfzU8D5WTTi6g2u4JATuAqakpsXFALt12/YcZmfG4vb2V13g6nRbe5vv374W3mcep/2IG3XY5Pj5OG4DY8nm8awDe1c+FwMo+AJgllUqFmbcgp3QRWPEtGQAA4EHpN27y7G/uQjEmnXVg7rUToLNsqQn1sA0UAHygvQU+z/T09JcvX6ijMJgZc+4qr6PKc3FxQfVoKCuze0TDm/Yspk/2Z4yVyv5nZ2eKI9GZxxFLwR2ApNtFXr9+LaNZHjJOfmpSeDUajVKHUNLGxgbP2zK7RzS8aQ9oWXxYIcA8tsfV0FKmgA4PD6VepG6iZDIpdiu65py9jsaImrVgNIF7MrEGYANsr5IhkUhotT99aGhIdv19cI0B...jk6fkm3b1MTo6mvnB1dVV9kVf41lrPH/+PO+V3Ckgnqu3CZWtL9vX1+frdbAYpoAAjGRELXHQHDoAcNHV1VV1dTX/+//8+XPv3j158QCQMHsXUBhanYkFb8I34Xhk/+Xl5cIXkf3BUN67EO0ZAezs7LS2tlJHAVyMO919dHSksmIHAL8wd6sVGQEI3xirBn/2L7tNAmQzK/sztfWaQCv6TxWEuVnTnhEAiDI1NfX161ePN6ysrLx//15ZPAAQUqkJEnQAYIPBwcHfv39TRwEElpeXP3z4QB2FqdABqBaPx5uamqijAN9wPQ7YBx0AwH8kk8m6ujrqKABUcG4b6N3dHXUIQID/7x3ZX4bcjby7u7uEkUAukR3A5eWlwNYkuX/fwj4vkUhQh6A7K//efdnf3yd8enNzc/bHYXatZBwfH4dsATJE/q949OhR7k93dnaENEv7D9cI9fX11CHkW1tbow4B/uPFixfUIQjz7Nkz6hBozMzMiG2w+BrA+fn5kydPxD4JAAx1e3tbUVFBHQWI93cEkHfYAdnfTalUijoEFeLxOHUIhkH2txV2AcFf+JYHRWE+wGKur4xJEo1GQ7ag5rbL3Gt/DMr+Mr61kC9a5E7v5o7IFxcXeT4ub3tbXvbf2tqS9CBJbm5uFDwle52GL7l3b5DACCAfzpTOzMx8/vyZOgpw2tzcXE9PD3UU9kMHQAn/ygE8nJycOHI1oWwTExNFL5rHFJBck5OTHr8qO/tnSoGbe0oge0M1uAnZX5Si2Z/Z2gFEIhHqEP76/v172ffwbEoJtj/n6dOnLNwpgVgsVuqX0ul04GY5ZW+oBhPpX0gZMAUEtjk4OCi81d0FuLcymFQqVVVVRR0FDTtHAOAyN7M/M+3eytwdaLTczP5DQ0MMIwAAAGdhBAAW2tvbU3+z6dnZmeIngi9l/4LIz4KohxEAAIBEOu/2RgcAciUSCQ2LlQIAwxRQHn0WpqyB7C8cZ3EIgLLQAfyHyoMnGHsBv42NjeyPu7q6BLYs6t6Ooqanp+U1DuH9D96q3bz33vSlAAAAAElFTkSuQmCC');
+    background-size: cover;
+}
+
+.text-manga-black {
+    color: #000000;
+    font-weight: bold;
+}
+
+.text-manga-white {
+    color: #ffffff;
+}
+
+.bg-manga-white {
+    background-color: #ffffff;
+}
+
+.border-manga-black {
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.bg-manga-red {
+    background-color: #e03d31;
+}
+
+.bg-manga-dark-red {
+    background-color: #c92a23;
+}
+
+.bg-manga-light {
+    background-color: #f0f0f0;
+}
+
+.bg-manga-lighter {
+    background-color: #e0e0e0;
+}
+
+.drop-shadow-md {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.button-manga {
+    background-color: #e03d31;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-manga:hover {
+    background-color: #c92a23;
+}
+
+.trapezoid {
+    position: relative;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.trapezoid::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    transform-origin: top left;
+    transform: skewY(-5deg);
+    z-index: -1;
+}
+

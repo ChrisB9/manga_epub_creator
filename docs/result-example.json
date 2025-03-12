@@ -1,0 +1,401 @@
+{
+  "readableProduct": {
+    "typeName": "episode",
+    "publishedAt": "2016-03-13T15:00:00Z",
+    "showSquareThumbnailInRecommendation": false,
+    "isPublic": true,
+    "finishReadingNotificationUri": null,
+    "series": {
+      "title": "\u30c8\u30e2\u30c0\u30c1\u30b2\u30fc\u30e0",
+      "thumbnailUri": "https://cdn-scissors.gigaviewer.com/image/scale/c07547658d7d53b440467033b084de5ce6b12df5/enlarge=0;height=484;no_unsharpmask=1;quality=90;version=1;width=484/https://cdn-img.pocket.shonenmagazine.com/public/series-thumbnail/13932016480029112950-959e001a8f3ae14b770b3e02b6ed813e?1740669303",
+      "id": "13932016480029112950"
+    },
+    "permalink": "https://pocket.shonenmagazine.com/episode/13932016480029113131",
+    "pageStructure": {
+      "startPosition": "latter",
+      "readingDirection": "rtl",
+      "pages": [
+        {
+          "linkPosition": "front",
+          "type": "link"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080769-7893292bc020e7253df7228ba1b9bcd1",
+          "type": "main",
+          "contentStart": "140487",
+          "height": 1378,
+          "width": 960
+        },
+        {
+          "type": "main",
+          "width": 960,
+          "height": 1378,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080770-ee473f84b0fe3dd65a81898df588db18"
+        },
+        {
+          "type": "main",
+          "width": 960,
+          "height": 1378,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080771-06ad28148253126a23e987b5a84b6e89"
+        },
+        {
+          "type": "main",
+          "width": 960,
+          "height": 1378,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080772-5ed3b459b8bb25c6b1e0019979a34403"
+        },
+        {
+          "width": 960,
+          "height": 1378,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080773-aea72172dbcd38465260ce5d881e0690"
+        },
+        {
+          "type": "main",
+          "width": 960,
+          "height": 1378,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080774-2f6f6ecda82adba303c62ec530e3131a"
+        },
+        {
+          "type": "main",
+          "width": 960,
+          "height": 1378,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080775-a0c7a12c8dbfe9cdcefdca238793a6a3"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080776-a37237d6a6f2ebca8f69c1f9e9ff972e",
+          "type": "main",
+          "width": 960,
+          "height": 1378
+        },
+        {
+          "height": 1378,
+          "width": 960,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080777-2d6cd1f79e0d356654868e7d1eb301cd"
+        },
+        {
+          "type": "main",
+          "height": 1378,
+          "width": 960,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080778-7034586c85a7a9bf9bd0e49f77030168"
+        },
+        {
+          "type": "main",
+          "width": 960,
+          "height": 1378,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080779-81a7d3c24763705ad96ab92fadce7387"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080780-d02743d39dc4e68231b228264fe7a131",
+          "width": 960,
+          "height": 1378,
+          "type": "main"
+        },
+        {
+          "type": "main",
+          "width": 960,
+          "height": 1378,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080781-ad9cf962bd96fb620f6633cd355ca1ff"
+        },
+        {
+          "height": 1378,
+          "width": 960,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080782-6c1effe953fe9e42bcbac872bbc36a6c"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080783-863b7a6767e0b6d2f6b814bf6112bade",
+          "type": "main",
+          "width": 960,
+          "height": 1378
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080784-54358d907b3171698405f98641cbbd26",
+          "type": "main",
+          "width": 960,
+          "height": 1378
+        },
+        {
+          "type": "main",
+          "width": 960,
+          "height": 1378,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080785-9b8cad7ca48dd1e3a5636a6ac5c3a736"
+        },
+        {
+          "width": 960,
+          "height": 1378,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080786-646ea1494f7944258d8c57b87711d8f9"
+        },
+        {
+          "width": 960,
+          "height": 1378,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080787-d0d527f797ed79ceb6ebdb42f0a33b1e"
+        },
+        {
+          "width": 960,
+          "height": 1378,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080788-35f69e97222746cfe37a93f642eb6d8b"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080789-c759b930ce11289f3b43b9387d4cc8ae",
+          "type": "main",
+          "width": 960,
+          "height": 1378
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080790-fc7ea2884a9e14ce5435db4624677510",
+          "type": "main",
+          "width": 960,
+          "height": 1378
+        },
+        {
+          "type": "main",
+          "height": 1378,
+          "width": 960,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080791-eeee7b982e8a8799c048ac942e008e57"
+        },
+        {
+          "type": "main",
+          "height": 1378,
+          "width": 960,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080792-5229a85240236d7927f42f26aae24447"
+        },
+        {
+          "type": "main",
+          "width": 960,
+          "height": 1378,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080793-ab565dd14e5c8f3ad0a903d0df54f06c"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080794-2feede777845bfbfb052e8b01c16b291",
+          "width": 960,
+          "height": 1378,
+          "type": "main"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080795-c7403d69c7212a314ca30433f7cec290",
+          "type": "main",
+          "width": 960,
+          "height": 1378
+        },
+        {
+          "type": "main",
+          "height": 1378,
+          "width": 960,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080796-3fc2daa7a1a03810fae704b93e139201"
+        },
+        {
+          "height": 1378,
+          "width": 960,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080797-c6b631d1094e669602f4f26f0ccb4fb0"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080798-96367cd61c5842a04a9ab00cb33ca376",
+          "height": 1378,
+          "width": 960,
+          "type": "main"
+        },
+        {
+          "height": 1378,
+          "width": 960,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080799-2348c1b307bb515735b9e3ccbe82a0d1"
+        },
+        {
+          "type": "main",
+          "width": 960,
+          "height": 1378,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080800-f07f56f7ad87107f5917ab80d7359088"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080801-8330793e81df250cbe22034959e42989",
+          "height": 1378,
+          "width": 960,
+          "type": "main"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080802-d9e79850eaca8d40d30c77f3e9c38ce4",
+          "height": 1378,
+          "width": 960,
+          "type": "main"
+        },
+        {
+          "type": "main",
+          "height": 1378,
+          "width": 960,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080803-dd82f70c703e4e9516c21fe87a601c24"
+        },
+        {
+          "height": 1378,
+          "width": 960,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080804-0d3fc5f160e82c1c6f833df299bb3c04"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080806-b42111d8f139d10ec1c72295ba22eb20",
+          "type": "main",
+          "height": 1378,
+          "width": 960
+        },
+        {
+          "type": "main",
+          "height": 1378,
+          "width": 960,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080807-3f16e33b7562d0b5e2282b1f613fbe26"
+        },
+        {
+          "type": "main",
+          "width": 960,
+          "height": 1378,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080808-4804917cf55012b583d467c5cad0326b"
+        },
+        {
+          "type": "main",
+          "width": 960,
+          "height": 1378,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080809-a5e47e92922ed1e202213302289afc7d"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080810-f6d3629aef742974e47a75a5d9f148da",
+          "width": 960,
+          "height": 1378,
+          "type": "main"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080811-8f918f79cd3d15a588125423c56dda8e",
+          "width": 960,
+          "height": 1378,
+          "type": "main"
+        },
+        {
+          "type": "main",
+          "width": 960,
+          "height": 1378,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080812-7fee1c06a37d4dfbbf9436f26a866a2b"
+        },
+        {
+          "width": 960,
+          "height": 1378,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080814-8a41ab212d70f377ceadc1bd0ee3fcb2"
+        },
+        {
+          "height": 1378,
+          "width": 960,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080815-15a1e70415dcd8cc98fc6cb4d483a0ec"
+        },
+        {
+          "width": 960,
+          "height": 1378,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080816-c882ee8d372d543a9e2e0cda03fa3edd"
+        },
+        {
+          "width": 960,
+          "height": 1378,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080817-cb63e5bc8b567f5f12f478fc097b9848"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080819-75829dcf8c4142bd1dbc9d8747aa366c",
+          "width": 960,
+          "height": 1378,
+          "type": "main"
+        },
+        {
+          "type": "main",
+          "height": 1378,
+          "width": 960,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080820-6c1205612c3c81f8c6b336d10e6800de"
+        },
+        {
+          "height": 1378,
+          "width": 960,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080821-a447d94d0ab8e93a4536c2e927ac92aa"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080822-51625c4d8231c36ae472aa5fa47805bd",
+          "type": "main",
+          "width": 960,
+          "height": 1378
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080823-e9367e33d6a84aaf4c0a1f9712fecad8",
+          "type": "main",
+          "width": 960,
+          "height": 1378
+        },
+        {
+          "width": 960,
+          "height": 1378,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080824-87ad3bd2a2f404949b48cc37349f8f16"
+        },
+        {
+          "width": 960,
+          "height": 1378,
+          "type": "main",
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080826-00a3ce06f84d42206f7fffdb935fe8a0"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080827-4c5e29b5a9caa3db69eceb639bab5fbd",
+          "type": "main",
+          "height": 1378,
+          "width": 960
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080828-d56d951ce493478084ea2483539f0d13",
+          "width": 960,
+          "height": 1378,
+          "type": "main"
+        },
+        {
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080829-496836f992ce0bd09d17368f1296c94f",
+          "type": "main",
+          "width": 960,
+          "height": 1378
+        },
+        {
+          "type": "main",
+          "height": 1378,
+          "width": 960,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080830-a9f0943cb4c1a906e73589ba7b2d2885"
+        },
+        {
+          "type": "main",
+          "height": 1378,
+          "width": 960,
+          "src": "https://cdn-img.pocket.shonenmagazine.com/public/page/2/10834108156640080831-6b164992d51e315319f59c71680790d7",
+          "contentEnd": "140487"
+        },
+        {
+          "linkPosition": "back",
+          "type": "link"
+        },
+        {
+          "type": "other"
+        },
+        {
+          "type": "backMatter"
+        }
+      ],
+      "choJuGiga": "baku"
+    },
+    "hasPurchased": false,
+    "toc": null,
+    "prevReadableProductUri": null,
+    "title": "\u3010\u7b2c1\u8a71\u3011\u3042\u308c\uff1f \u53cb\u4e00\u541b\u306f\u53cb\u9054\u3092\u7591\u3063\u3066\u308b\u306e\uff1f",
+    "imageUrisDigest": "aac14f488eb821894111205655092454e63aa9d1",
+    "nextReadableProductUri": "https://pocket.shonenmagazine.com/episode/13932016480029113132",
+    "id": "13932016480029113131",
+    "number": 1,
+    "pointGettableEpisodeWhenCompleteReading": null
+  }
+}

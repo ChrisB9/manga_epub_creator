@@ -1,0 +1,32 @@
+[package]
+name = "untitled"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12.12", features = ["blocking", "json"] }
+scraper = "0.23.1"
+serde_json = "1.0"
+image = "0.25.5"
+epub-builder = "0.8.0"
+infer = "0.3"
+serde = { version = "1.0.218", features = ["derive"] }
+chrono = "0.4.40"
+dioxus = "0.6.3"
+tokio = "1.43.0"
+
+[profile]
+
+[profile.wasm-dev]
+inherits = "dev"
+opt-level = 1
+
+[profile.server-dev]
+inherits = "dev"
+
+[profile.android-dev]
+inherits = "dev"
+
+[features]
+default = ["desktop"]
+desktop = ["dioxus/desktop"]
