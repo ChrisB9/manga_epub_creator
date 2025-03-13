@@ -14,7 +14,7 @@ use std::env;
 use std::thread::Scope;
 use infer;
 use tokio::task;
-use tokio::task::LocalSet;
+use tokio::task::{spawn_blocking, LocalSet};
 use tokio::runtime::Runtime;
 use crate::configuration::{EpubConfiguration, Settings};
 use crate::image_downloader::{remove_drm_on_all_images_in_directory, DownloadImage};
@@ -127,20 +127,10 @@ fn App() -> Element {
         let process_only = process_only();
         let convert_only = convert_only();
 
-        std::thread::spawn(move || {
-            let spawner = tokio::task::LocalSet::new();
-            spawner
-                .spawn_local(async move {
-                    run(url, destination, process_only, convert_only).expect("TODO: panic message");
-                });
-            let rt = tokio::runtime::Builder::new_current_thread()
-                .enable_all()
-                .build()
-                .unwrap();
-            rt.block_on(spawner)
+        spawn_blocking(move || {
+            run(url, destination, process_only, convert_only).expect("");
         });
     };
-
 
     rsx! {
         document::Stylesheet { href: CSS },

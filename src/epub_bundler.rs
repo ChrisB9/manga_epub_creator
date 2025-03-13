@@ -2,7 +2,7 @@ use std::fs;
 use std::fs::File;
 use std::path::{Path, PathBuf};
 use chrono::{DateTime, FixedOffset, Utc};
-use epub_builder::{EpubBuilder, EpubContent, MetadataOpf, ZipLibrary};
+use epub_builder::{EpubBuilder, EpubContent, MetadataOpf, PageDirection, ZipLibrary};
 
 use crate::configuration::Settings;
 use crate::utils;
@@ -22,7 +22,14 @@ pub fn convert_to_epub(config: &Settings) -> Result<(), Box<dyn std::error::Erro
     let date_time_utc: DateTime<Utc> = date_time.with_timezone(&Utc);
     epub.set_publication_date(date_time_utc);*/
     epub.set_authors(vec!["Shonenmagazine".to_string()]);
-    epub.add_metadata_opf(MetadataOpf { name: "primary-writing-mode".to_string(), content: "vertical-rl".to_string() });
+    epub.set_lang("jp");
+    epub.set_toc_name("Table of contents");
+    epub.add_metadata_opf(MetadataOpf {
+        name: String::from("primary-writing-mode"),
+        content: String::from("vertical-rl")
+    });
+    epub.epub_direction(PageDirection::Rtl);
+
     let path_buf = PathBuf::from(format!("{}/{}", config.destination, config.epub_configuration.cover_image));
     let kind = infer::get_from_path(path_buf.as_path())
         .expect("file read successfully")
@@ -32,7 +39,18 @@ pub fn convert_to_epub(config: &Settings) -> Result<(), Box<dyn std::error::Erro
     let image_data = fs::read(path_buf.as_path())?;
     epub.add_cover_image(&config.epub_configuration.cover_image, &image_data[..], kind.mime_type().to_string())?;
 
-    let css = ""; // maybe we should add some styling
+    let css = r#"@charset "UTF-8"
+
+html,
+body {
+    margin:    0;
+    padding:   0;
+    font-size: 0;
+}
+svg, img {
+    margin:    0;
+    padding:   0;
+}"#;
     epub.stylesheet(css.as_bytes())?;
 
     let mut images = images.expect("Images need to be available");
@@ -56,11 +74,18 @@ pub fn convert_to_epub(config: &Settings) -> Result<(), Box<dyn std::error::Erro
 
         // Add chapter with image
         let chapter_content = format!(r#"<?xml version="1.0" encoding="UTF-8"?>
-        <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-            <img src="{}" alt="Page {}"/>
-        </html>"#, image_name, index + 1);
+        <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en" lang="ja">
+            <head>
+                <meta charset="UTF-8" />
+                <title>{}</title>
+                <style>img{{ {}px;height:{}px}}</style>
+            </head>
+            <body>
+                <img src="{}" alt="chapter-{}"/>
+            </body>
+        </html>"#, 960, 1378, format!("chapter-{}", index + 1), image_name, index + 1);
         epub.add_content(EpubContent::new(
-            format!("Page {}", index + 1),
+            format!("chapter-{}", index + 1),
             chapter_content.as_bytes(),
         ))?;
     }
